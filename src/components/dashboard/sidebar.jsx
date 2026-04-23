@@ -1,4 +1,5 @@
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import Link from "next/link";
 
 export function Sidebar({ items, collapsed, onToggle }) {
   return (
@@ -24,18 +25,19 @@ export function Sidebar({ items, collapsed, onToggle }) {
         </div>
 
         {!collapsed ? (
-            <nav className="scrollbar-hide min-h-0 flex-1 overflow-y-auto py-1">
-            {items.map(({ label, icon: Icon, active }, index) => (
-              <button
+          <nav className="scrollbar-hide min-h-0 flex-1 overflow-y-auto py-1">
+            {items.map(({ label, icon: Icon, active, href }) => (
+              <Link
                 key={label}
-                type="button"
+                href={href}
+                aria-current={active ? "page" : undefined}
                 className={`flex w-full items-center gap-4 px-4 py-[14px] text-left text-[18px] font-medium text-[#2c4668] transition-colors hover:bg-white/80 ${
-                  active || index === 2 ? "bg-white/85" : ""
+                  active ? "bg-white/85" : ""
                 }`}
               >
                 <Icon className="h-[18px] w-[18px] shrink-0 text-[#6e8598]" />
                 <span>{label}</span>
-              </button>
+              </Link>
             ))}
           </nav>
         ) : null}
