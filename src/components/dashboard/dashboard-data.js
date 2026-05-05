@@ -164,7 +164,7 @@ export const expenseBars = [
 export const shellMeta = {
   // branch: "DeshIT-BD",
   // user: "DeshIT-BD",
-  title: "Hospital managment",
+  // title: "Hospital managment",
   // date: "11 Apr 2026",
   // time: "01:45:00 PM",
 };

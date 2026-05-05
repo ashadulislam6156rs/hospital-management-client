@@ -13,7 +13,7 @@ export function AuthStatus() {
   return (
     <div className="hidden items-center gap-2 rounded-full border border-[#d6e0de] bg-white/80 px-3 py-2 text-sm font-medium text-[#476164] md:flex">
       <ShieldCheck className="h-4 w-4" />
-      {user.name} · {user.role}
+       {user.role}
     </div>
   );
 }

@@ -1,0 +1,27 @@
+{
+  "defaultUser": "admin@hospital.com",
+  "users": [
+    {
+      "id": "USR-0001",
+      "name": "Admin User",
+      "email": "admin@hospital.com",
+      "password": "hospital123",
+      "role": "Super Admin",
+      "status": "Active",
+      "department": "Administration",
+      "permissions": ["dashboard", "patient", "doctor", "appointment", "billing", "reports", "settings"],
+      "lastLogin": "2026-05-05T08:15:00+06:00"
+    },
+    {
+      "id": "USR-0002",
+      "name": "Front Desk User",
+      "email": "reception@hospital.com",
+      "password": "reception123",
+      "role": "Receptionist",
+      "status": "Active",
+      "department": "Front Office",
+      "permissions": ["patient", "appointment", "opd"],
+      "lastLogin": "2026-05-04T16:20:00+06:00"
+    }
+  ]
+}

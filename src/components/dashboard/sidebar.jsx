@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import Link from "next/link";
 
@@ -9,7 +10,27 @@ export function Sidebar({ items, collapsed, onToggle }) {
       }`}
     >
       <div className="flex h-full min-h-0 flex-col">
-        <div className="flex items-center justify-end border-b border-[#e6ddd4] bg-white px-3 py-3">
+        <div className="flex items-center justify-between gap-3 border-b border-[#e6ddd4] bg-white px-3 py-3">
+          <Link
+            href="/dashboard"
+            className={`flex items-center gap-2 overflow-hidden rounded-full transition-opacity hover:opacity-90 ${
+              collapsed ? "w-0 opacity-0" : "min-w-0"
+            }`}
+            aria-label="Hospital dashboard home"
+          >
+            <Image
+              src="/logo.png"
+              alt="Hospital logo"
+              width={36}
+              height={36}
+              className="h-9 w-9 rounded-full object-contain"
+              priority
+            />
+            <span className="truncate text-sm font-semibold tracking-wide text-[#355355]">
+              Hospital Management
+            </span>
+          </Link>
+
           <button
             type="button"
             onClick={onToggle}

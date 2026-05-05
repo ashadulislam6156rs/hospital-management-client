@@ -1,0 +1,29 @@
+{
+  "departments": [
+    "Medicine",
+    "Gynecology",
+    "Surgery",
+    "Cardiology",
+    "Orthopedics",
+    "Pediatrics",
+    "Radiology",
+    "Pathology"
+  ],
+  "designations": [
+    "Consultant",
+    "Specialist",
+    "Senior Consultant",
+    "Registrar",
+    "Resident"
+  ],
+  "genders": ["Male", "Female", "Other"],
+  "bloodGroups": ["A+", "A-", "B+", "B-", "AB+", "AB-", "O+", "O-"],
+  "maritalStatuses": ["Single", "Married", "Divorced", "Widowed"],
+  "statuses": ["OPD", "IPD", "Waiting", "Admitted", "Discharged", "Emergency"],
+  "appointmentTypes": ["OPD", "Follow-up", "Emergency", "Telemedicine"],
+  "sessions": ["Morning", "Evening", "Night"],
+  "weekDays": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+  "countries": ["Bangladesh"],
+  "states": ["Dhaka", "Chattogram", "Khulna", "Rajshahi", "Sylhet"],
+  "cities": ["Dhaka", "Gazipur", "Narayanganj", "Chattogram", "Sylhet"]
+}

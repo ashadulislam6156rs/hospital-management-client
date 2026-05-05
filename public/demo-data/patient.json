@@ -1,0 +1,58 @@
+{
+  "patient": {
+    "code": "PY0001",
+    "patientId": "PT-2026-0142",
+    "name": "Ayesha Rahman",
+    "firstName": "Ayesha",
+    "lastName": "Rahman",
+    "age": 26,
+    "gender": "Female",
+    "phone": "+8801712000101",
+    "email": "ayesha.rahman@example.com",
+    "dateOfBirth": "2000-02-14",
+    "bloodGroup": "A+",
+    "primaryDoctor": "Dr. Hasan Mahmud",
+    "status": "OPD",
+    "emergency": false,
+    "insurance": "Not linked",
+    "guardian": {
+      "name": "Shah Alam",
+      "contact": "+8801712000199",
+      "relation": "Father"
+    },
+    "identity": {
+      "type": "National ID",
+      "number": "1999123456789"
+    },
+    "address": {
+      "line1": "Flat 5B, House 18",
+      "line2": "Mirpur 10",
+      "country": "Bangladesh",
+      "state": "Dhaka",
+      "city": "Dhaka",
+      "pincode": "1216"
+    },
+    "allergies": ["Penicillin"],
+    "remarks": "Follow-up after lab report",
+    "lastVisit": {
+      "module": "OPD",
+      "date": "2026-05-03",
+      "reason": "Fever and weakness",
+      "doctor": "Dr. Hasan Mahmud"
+    },
+    "visitHistory": [
+      {
+        "module": "OPD",
+        "date": "2026-05-03",
+        "doctor": "Dr. Hasan Mahmud",
+        "summary": "Follow-up consultation"
+      },
+      {
+        "module": "Pathology",
+        "date": "2026-05-03",
+        "doctor": "Lab Desk",
+        "summary": "CBC and CRP collected"
+      }
+    ]
+  }
+}

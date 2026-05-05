@@ -1,0 +1,382 @@
+{
+  "doctors": [
+    {
+      "code": "DR0001",
+      "name": "Dr. Hasan Mahmud",
+      "phone": "+8801711000101",
+      "email": "hasan.mahmud@hospital.com",
+      "dob": "1982-04-11",
+      "yearOfExperience": 14,
+      "department": "Medicine",
+      "designation": "Consultant",
+      "medicalLicenseNumber": "BMDC-451122",
+      "languageSpoken": "Bangla, English",
+      "bloodGroup": "A+",
+      "gender": "Male",
+      "bio": "Internal medicine consultant with a strong focus on diabetes, hypertension, and general adult care.",
+      "featureOnWebsite": true,
+      "profileImage": "/demo-data/doctors/hasan-mahmud.png",
+      "address": {
+        "line1": "House 24, Road 8",
+        "line2": "Dhanmondi",
+        "country": "Bangladesh",
+        "state": "Dhaka",
+        "city": "Dhaka",
+        "pincode": "1209"
+      },
+      "schedule": {
+        "days": ["Monday", "Tuesday", "Thursday"],
+        "session": "Morning",
+        "from": "09:00 AM",
+        "to": "01:00 PM",
+        "appointmentType": "OPD",
+        "appointmentDurationMins": 15,
+        "acceptBookingsInAdvanceDays": 7,
+        "consultationCharge": 800,
+        "maxBookingsPerSlot": 4,
+        "displayOnBookingPage": true
+      },
+      "education": [
+        {
+          "degree": "MBBS",
+          "university": "Dhaka Medical College",
+          "from": "2000-01-01",
+          "to": "2005-12-31"
+        },
+        {
+          "degree": "FCPS Medicine",
+          "university": "Bangladesh College of Physicians and Surgeons",
+          "from": "2008-01-01",
+          "to": "2012-12-31"
+        }
+      ],
+      "awards": [
+        {
+          "name": "Best Consultant Award",
+          "from": "2024-01-01"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Advanced Cardiac Life Support",
+          "from": "2023-06-01"
+        }
+      ]
+    },
+    {
+      "code": "DR0002",
+      "name": "Dr. Nusrat Jahan",
+      "phone": "+8801711000102",
+      "email": "nusrat.jahan@hospital.com",
+      "dob": "1985-09-22",
+      "yearOfExperience": 11,
+      "department": "Gynecology",
+      "designation": "Specialist",
+      "medicalLicenseNumber": "BMDC-552210",
+      "languageSpoken": "Bangla, English",
+      "bloodGroup": "B+",
+      "gender": "Female",
+      "bio": "Handles antenatal care, gynecology consults, and follow-up support for women health patients.",
+      "featureOnWebsite": true,
+      "profileImage": "/demo-data/doctors/nusrat-jahan.png",
+      "address": {
+        "line1": "House 18, Road 3",
+        "line2": "Uttara Sector 11",
+        "country": "Bangladesh",
+        "state": "Dhaka",
+        "city": "Dhaka",
+        "pincode": "1230"
+      },
+      "schedule": {
+        "days": ["Saturday", "Sunday", "Wednesday"],
+        "session": "Evening",
+        "from": "03:00 PM",
+        "to": "07:00 PM",
+        "appointmentType": "OPD",
+        "appointmentDurationMins": 20,
+        "acceptBookingsInAdvanceDays": 10,
+        "consultationCharge": 900,
+        "maxBookingsPerSlot": 5,
+        "displayOnBookingPage": true
+      },
+      "education": [
+        {
+          "degree": "MBBS",
+          "university": "Mymensingh Medical College",
+          "from": "2003-01-01",
+          "to": "2008-12-31"
+        },
+        {
+          "degree": "FCPS Gynecology",
+          "university": "Bangladesh College of Physicians and Surgeons",
+          "from": "2010-01-01",
+          "to": "2014-12-31"
+        }
+      ],
+      "awards": [
+        {
+          "name": "Women Health Service Recognition",
+          "from": "2022-11-01"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Basic Obstetric Ultrasound",
+          "from": "2021-08-01"
+        }
+      ]
+    },
+    {
+      "code": "DR0003",
+      "name": "Dr. Rashed Karim",
+      "phone": "+8801711000103",
+      "email": "rashed.karim@hospital.com",
+      "dob": "1979-01-17",
+      "yearOfExperience": 18,
+      "department": "Surgery",
+      "designation": "Senior Consultant",
+      "medicalLicenseNumber": "BMDC-330988",
+      "languageSpoken": "Bangla, English",
+      "bloodGroup": "O+",
+      "gender": "Male",
+      "bio": "Performs general surgery consults and oversees operating room coordination for scheduled procedures.",
+      "featureOnWebsite": false,
+      "profileImage": "/demo-data/doctors/rashed-karim.png",
+      "address": {
+        "line1": "Plot 15, Road 12",
+        "line2": "Banani",
+        "country": "Bangladesh",
+        "state": "Dhaka",
+        "city": "Dhaka",
+        "pincode": "1213"
+      },
+      "schedule": {
+        "days": ["Monday", "Wednesday", "Saturday"],
+        "session": "Morning",
+        "from": "08:30 AM",
+        "to": "12:30 PM",
+        "appointmentType": "OPD",
+        "appointmentDurationMins": 20,
+        "acceptBookingsInAdvanceDays": 5,
+        "consultationCharge": 1000,
+        "maxBookingsPerSlot": 3,
+        "displayOnBookingPage": false
+      },
+      "education": [
+        {
+          "degree": "MBBS",
+          "university": "Sir Salimullah Medical College",
+          "from": "1997-01-01",
+          "to": "2002-12-31"
+        },
+        {
+          "degree": "MS Surgery",
+          "university": "Dhaka University",
+          "from": "2006-01-01",
+          "to": "2010-12-31"
+        }
+      ],
+      "awards": [
+        {
+          "name": "Excellent Surgical Service Award",
+          "from": "2023-02-01"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Laparoscopic Surgery Workshop",
+          "from": "2020-04-01"
+        }
+      ]
+    },
+    {
+      "code": "DR0004",
+      "name": "Dr. Mick Thompson",
+      "phone": "+8801711000104",
+      "email": "mick.thompson@hospital.com",
+      "dob": "1980-02-12",
+      "yearOfExperience": 16,
+      "department": "Cardiology",
+      "designation": "Consultant",
+      "medicalLicenseNumber": "BMDC-774421",
+      "languageSpoken": "Bangla, English",
+      "bloodGroup": "A+",
+      "gender": "Male",
+      "bio": "Cardiologist focused on outpatient review, preventive care, and long-term follow-up.",
+      "featureOnWebsite": true,
+      "profileImage": "/demo-data/doctors/mick-thompson.png",
+      "address": {
+        "line1": "House 8, Road 5",
+        "line2": "Uttara Sector 3",
+        "country": "Bangladesh",
+        "state": "Dhaka",
+        "city": "Dhaka",
+        "pincode": "1230"
+      },
+      "schedule": {
+        "days": ["Monday", "Wednesday", "Friday"],
+        "session": "Morning",
+        "from": "09:00 AM",
+        "to": "01:00 PM",
+        "appointmentType": "OPD",
+        "appointmentDurationMins": 15,
+        "acceptBookingsInAdvanceDays": 7,
+        "consultationCharge": 499,
+        "maxBookingsPerSlot": 4,
+        "displayOnBookingPage": true
+      },
+      "education": [
+        {
+          "degree": "MBBS",
+          "university": "Dhaka Medical College",
+          "from": "1998-01-01",
+          "to": "2003-12-31"
+        },
+        {
+          "degree": "MD Cardiology",
+          "university": "Bangladesh University of Professionals",
+          "from": "2006-01-01",
+          "to": "2010-12-31"
+        }
+      ],
+      "awards": [
+        {
+          "name": "Best Cardiology Consultant",
+          "from": "2024-01-01"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "ACLS",
+          "from": "2023-06-01"
+        }
+      ]
+    },
+    {
+      "code": "DR0005",
+      "name": "Dr. Sarah Johnson",
+      "phone": "+8801711000105",
+      "email": "sarah.johnson@hospital.com",
+      "dob": "1984-06-24",
+      "yearOfExperience": 13,
+      "department": "Orthopedics",
+      "designation": "Orthopedic Surgeon",
+      "medicalLicenseNumber": "BMDC-882155",
+      "languageSpoken": "Bangla, English",
+      "bloodGroup": "B+",
+      "gender": "Female",
+      "bio": "Orthopedic surgeon supporting trauma, fracture, and rehabilitation follow-up.",
+      "featureOnWebsite": true,
+      "profileImage": "/demo-data/doctors/sarah-johnson.png",
+      "address": {
+        "line1": "House 41, Road 10",
+        "line2": "Dhanmondi",
+        "country": "Bangladesh",
+        "state": "Dhaka",
+        "city": "Dhaka",
+        "pincode": "1209"
+      },
+      "schedule": {
+        "days": ["Tuesday", "Thursday"],
+        "session": "Evening",
+        "from": "03:00 PM",
+        "to": "07:00 PM",
+        "appointmentType": "OPD",
+        "appointmentDurationMins": 20,
+        "acceptBookingsInAdvanceDays": 10,
+        "consultationCharge": 450,
+        "maxBookingsPerSlot": 5,
+        "displayOnBookingPage": true
+      },
+      "education": [
+        {
+          "degree": "MBBS",
+          "university": "Sir Salimullah Medical College",
+          "from": "2001-01-01",
+          "to": "2006-12-31"
+        },
+        {
+          "degree": "MS Orthopedics",
+          "university": "Dhaka University",
+          "from": "2008-01-01",
+          "to": "2012-12-31"
+        }
+      ],
+      "awards": [
+        {
+          "name": "Surgery Excellence Award",
+          "from": "2023-02-01"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Advanced Trauma Life Support",
+          "from": "2022-05-01"
+        }
+      ]
+    },
+    {
+      "code": "DR0006",
+      "name": "Dr. Emily Carter",
+      "phone": "+8801711000106",
+      "email": "emily.carter@hospital.com",
+      "dob": "1987-11-05",
+      "yearOfExperience": 10,
+      "department": "Pediatrics",
+      "designation": "Pediatrician",
+      "medicalLicenseNumber": "BMDC-990014",
+      "languageSpoken": "Bangla, English",
+      "bloodGroup": "O+",
+      "gender": "Female",
+      "bio": "Pediatric care specialist for child health review and follow-up visits.",
+      "featureOnWebsite": true,
+      "profileImage": "/demo-data/doctors/emily-carter.png",
+      "address": {
+        "line1": "House 19, Road 2",
+        "line2": "Mirpur DOHS",
+        "country": "Bangladesh",
+        "state": "Dhaka",
+        "city": "Dhaka",
+        "pincode": "1206"
+      },
+      "schedule": {
+        "days": ["Sunday", "Tuesday", "Saturday"],
+        "session": "Morning",
+        "from": "10:00 AM",
+        "to": "02:00 PM",
+        "appointmentType": "OPD",
+        "appointmentDurationMins": 15,
+        "acceptBookingsInAdvanceDays": 5,
+        "consultationCharge": 300,
+        "maxBookingsPerSlot": 6,
+        "displayOnBookingPage": true
+      },
+      "education": [
+        {
+          "degree": "MBBS",
+          "university": "Chittagong Medical College",
+          "from": "2004-01-01",
+          "to": "2009-12-31"
+        },
+        {
+          "degree": "FCPS Pediatrics",
+          "university": "Bangladesh College of Physicians and Surgeons",
+          "from": "2011-01-01",
+          "to": "2015-12-31"
+        }
+      ],
+      "awards": [
+        {
+          "name": "Child Health Service Award",
+          "from": "2024-03-01"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Pediatric Advanced Life Support",
+          "from": "2023-08-01"
+        }
+      ]
+    }
+  ]
+}
